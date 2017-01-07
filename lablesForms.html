@@ -4,13 +4,31 @@
 	<title>Lables and Forms</title>
 </head>
 <body>
+	<h1>Login Form</h1>
 
-	<form>
-		<input type="text" name="username">
-		<input type="password" name="password">
+	<form action="http://www.wikipedia.org" method="get">
+		<lable>Username: 
+			<input type="text" name="username" placeholder="Username"> 
+		</lable>
+
+		<lable>Password:
+			<input type="password" name="password" placeholder="Password">
+		</lable>
+
 		<input type="submit">
 	
 	</form>
+
+	<br>
+
+	<h1>Login From 2 (with alternate label syntax)</h1>
+	<form action="http://www.wikipedia.org" method="get">
+
+		<input type="text" name="username" placeholder="Username">
+		<input type="password" name="password" placeholder="Password"> 
+		<input type="submit">
+	</form>
+
 
 </body>
 </html>
