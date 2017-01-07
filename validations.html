@@ -7,7 +7,7 @@
 <body>
 <!-- simple validations can be done in HTML 
 we can check to make sure that somethins is not empty
-"required" is one way, but it wil not work in every browser-->
+"required" is one way, but it wil not work in every browser - this is a presence validation-->
 	<h1>Login Form</h1>
 
 	<form action="http://www.wikipedia.org" method="get">
@@ -33,6 +33,9 @@ we can check to make sure that somethins is not empty
 
 		<label for="password">Password:</label>
 		<input id="password" type="password" name="password" placeholder="Password" required> 
+
+		<label for="email">Email:</label>
+		<input id="email" type="email" name="email" pattern="john@doe.com" required>
 
 		<input type="submit">
 	</form>
