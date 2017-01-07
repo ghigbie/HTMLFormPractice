@@ -17,7 +17,10 @@ a form sends data somewhere -->
 		<button>Login</button>
 	</form>
 
+	<br>
+
 	<!-- working with imput types -->
+	<!-- inputs can exist outside of a form, but if it is a package, we should use a form tag -->
 	<div>
 		<input type="text">
 		<input type="color">
@@ -25,11 +28,15 @@ a form sends data somewhere -->
 		<input type="password">
 	</div>
 
-	<form>
-		<input type="text" placeholder="Username">
+	<br>
+
+	<h1>Login</h1>
+	<!-- action - where the form sends data to -->
+	<!-- method - what http method "get" or "post" -->
+	<form action="http://wikipedia.com" method="get">  <!--if you don't specifiy an action, it sends data to the same address and method is a get request by default -->
+		<input type="text" placeholder="username">
 		<input type="password" placeholder="password">
-		<input type="submit">
-		
+		<input type="submit"> <!--will refresh page-->
 	</form>
 
 </body>
