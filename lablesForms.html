@@ -23,9 +23,13 @@
 
 	<h1>Login From 2 (with alternate label syntax)</h1>
 	<form action="http://www.wikipedia.org" method="get">
+			<!-- below labels are connected to inputs with "for" and "id" -->
+		<label for="username">Username:</label>
+		<input id="username" type="text" name="username" placeholder="Username">
 
-		<input type="text" name="username" placeholder="Username">
-		<input type="password" name="password" placeholder="Password"> 
+		<label for="password">Password:</label>
+		<input id="password" type="password" name="password" placeholder="Password"> 
+
 		<input type="submit">
 	</form>
 
