@@ -1,9 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Form Validations</title>
 </head>
 <body>
+<body>
+	<h1>Login Form</h1>
+
+	<form action="http://www.wikipedia.org" method="get">
+		<lable>Username: 
+			<input type="text" name="username" placeholder="Username"> 
+		</lable>
+
+		<lable>Password:
+			<input type="password" name="password" placeholder="Password">
+		</lable>
+
+		<input type="submit">
+	
+	</form>
+
+	<br>
+
+	<h1>Login From 2 (with alternate label syntax)</h1>
+	<form action="http://www.wikipedia.org" method="get">
+			<!-- below labels are connected to inputs with "for" and "id" -->
+		<label for="username">Username:</label>
+		<input id="username" type="text" name="username" placeholder="Username">
+
+		<label for="password">Password:</label>
+		<input id="password" type="password" name="password" placeholder="Password"> 
+
+		<input type="submit">
+	</form>
+
+
+</body>
 
 </body>
 </html>
