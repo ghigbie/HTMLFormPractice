@@ -18,14 +18,14 @@
 
 <h3>Do you prefer cats, dogs, or pigs?</h3>
 <form>
-	<label for="dogs">Dogs</label> <!--all have the same name so tht only one can be selected-->
+	<label for="dogs">Dogs:</label> <!--all have the same name so tht only one can be selected-->
 	<input id="dogs" type="radio" name="petChoice" value="dogs">
 
-	<label for="cats">Cats</label>
-	<input id="cats" type="rado" name="petChoice" value="cats">
+	<label for="cats">Cats:</label>
+	<input id="cats" type="radio" name="petChoice" value="cats">
 
 	<label for="pigs">Pigs</label>
-	<input id="pigs" type="radio" name="petChoice" value="pigs">
+	<input id="pigs" type="radio" name="petChoice" value="pigs"> 
 
 	<div>
 		<!-- select tag lets you create drop down menus -->
@@ -47,6 +47,14 @@
 		</select>
 	</div>
 
+	<br>
+
+	<h3>Please copy and paste your resume in the field below:</h3>
+	<div>
+		<textarea name="paragraph" rows="10" cols="100"></textarea>
+	</div>
+
+	<br>
 	<button>Go!</button>
 	<!-- a button at the end of a form will act as a submit button -->
 </form>
